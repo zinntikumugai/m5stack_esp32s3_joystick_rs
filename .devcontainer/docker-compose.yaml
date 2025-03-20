@@ -1,0 +1,15 @@
+services:
+  devcontainer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - CONTAINER_USER=esp
+      - CONTAINER_GROUP=esp
+      - ESP_BOARD=esp32s3
+    volumes:
+      - ..:/workspace:cached
+    working_dir: /workspace
+    devices:
+      - /dev/ttyACM0:/dev/ttyACM0
+      - /dev/bus/usb:/dev/bus/usb
