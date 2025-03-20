@@ -1,4 +1,4 @@
-# m5stack_esp32s3_joystick_rs
+# m5stack_esp32s3_inputs_rs
 
 ## Dev Containers
 This repository offers Dev Containers supports for:

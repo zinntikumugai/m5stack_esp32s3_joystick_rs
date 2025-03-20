@@ -1,5 +1,5 @@
 [package]
-name = "m5stack_esp32s3_joystick_rs"
+name = "m5stack_esp32s3_inputs_rs"
 version = "0.1.0"
 authors = ["zinntikumugai <uesitananame55@gmail.com>"]
 edition = "2021"
@@ -7,7 +7,7 @@ resolver = "2"
 rust-version = "1.84"
 
 [[bin]]
-name = "m5stack_esp32s3_joystick_rs"
+name = "m5stack_esp32s3_inputs_rs"
 harness = false # do not use the built in cargo test harness -> resolve rust-analyzer errors
 
 [profile.release]
@@ -31,7 +31,6 @@ esp-idf-hal = "0.45.2"
 embedded-graphics = "0.8"
 display-interface-spi = "0.5"
 mipidsi = "0.9.0"
-tinybmp = "0.6.0"
 esp-backtrace = { version = "0.15.1", features = ["esp32s3", "exception-handler", "println", "colors"] }
 esp-println = { version = "0.13.1", features = ["esp32s3", "auto"] }
 

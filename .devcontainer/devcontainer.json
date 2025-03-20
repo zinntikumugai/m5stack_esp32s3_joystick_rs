@@ -1,5 +1,5 @@
 {
-  "name": "m5stack_esp32s3_joystick_rs",
+  "name": "m5stack_esp32s3_inputs_rs",
   // Select between image and build propieties to pull or build the image.
   // "image": "docker.io/espressif/idf-rust:esp32s3_latest",
   "dockerComposeFile": "docker-compose.yaml",
